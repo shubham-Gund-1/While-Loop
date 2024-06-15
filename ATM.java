@@ -10,6 +10,9 @@ public class ATM {
             if (pin == cpin) {
                 System.out.println("Enter Your Acccount Type :(1.Current\n2.saving)");
                 int acType=input.nextInt();
+                do{
+                    
+                }
                 switch(acType){
                     case 1:
                         System.out.println("Enter your choice \n1.Show balance\n2.Withdrawal\n3.Deposit\n4.Change pin\n5.Interrest:");
