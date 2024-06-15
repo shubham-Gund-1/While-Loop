@@ -49,9 +49,14 @@ public class ATM {
                                     System.out.println("Invalid pin.");
                                 }
                                 break;
+                                case 5:
+                                    int I=balance/100*2;
+                                    System.out.println("Interest is :"+I);
+                                    break;
                             default:
                                 System.out.println("Enter valid choice.");
                         }
+                        break;
                     case 2:
                         System.out.println("Enter your choice \n1.Show balance\n2.Withdrawal\n3.Deposit\n4.Change pin\n5.Interrest:");
                         ch=input.nextInt();
@@ -90,6 +95,10 @@ public class ATM {
                                     System.out.println("Invalid pin.");
                                 }
                                 break;
+                                case 5:
+                                    int I=balance/100*4;
+                                    System.out.println("Interest is :"+I);
+                                    break;
                             default:
                                 System.out.println("Enter valid choice.");
                         }
